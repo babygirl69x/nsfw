@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Redirect</title>
+  <style>
+    /* ভিডিওর উপরে ক্লিকযোগ্য লিঙ্ক সিএসএস */
+    #video-container {
+      position: relative;
+      width: 640px;
+      height: 360px;
+    }
+
+    #video-link {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* অর্ধ-স্বচ্ছ কালো ব্যাকগ্রাউন্ড */
+      color: white;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2></h2>
+  
+  <!-- ভিডিও প্লে করার জন্য কন্টেইনার -->
+  <div id="video-container">
+    <!-- ভিডিও -->
+    <video id="myVideo" width="640" height="360" controls>
+      <source src="check.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <!-- ক্লিক করলে লিঙ্কে নিয়ে যাবে -->
+    <a id="video-link" href="http://www.babygirl69.lovestoblog.com/" target="_blank"></a>
+  </div>
+
+</body>
+</html>
